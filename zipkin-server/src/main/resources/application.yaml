@@ -19,6 +19,6 @@ zipkin:
       ##username: guest
       #queue: zipkin
     kafka:
-      zookeeper: 10.231.128.57:2181
+      zookeeper: 127.0.0.1:2181
       topic: zipkin
       groupId: zipkin

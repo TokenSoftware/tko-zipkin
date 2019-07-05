@@ -5,14 +5,14 @@ spring:
   application:
     name: frontend
   zipkin:
-    base-url: http://10.231.129.76:9411
+    base-url: http://127.0.0.1:9411
     kafka:
       topic: zipkin
   sleuth:
     sampler:
       percentage: 1.0
   kafka:
-    bootstrap-servers: 10.231.129.76:9092
+    bootstrap-servers: 127.0.0.1:9092
 
 feign:
   hystrix:
