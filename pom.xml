@@ -15,7 +15,7 @@
 
     <packaging>pom</packaging>
     <name>Spring cloud sleuth zipkin</name>
-    <description>Demo project for Spring Cloud</description>
+    <description>zipkin project for Spring Cloud</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
